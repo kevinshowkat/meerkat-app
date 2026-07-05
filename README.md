@@ -21,13 +21,13 @@ Meerkat is a two-person passion project. A friend drives the product; I build it
 
 | Layer | |
 |---|---|
-| iOS | SwiftUI, ~109k lines. 120Hz interaction budget. Feed scroll runs on pre-rasterized card snapshots with pixel-parity swap rules. |
-| Backend | Node 22, ~15k lines, dependency-light. Postgres, 31 hand-written migrations. Dual store (Postgres + in-memory) so the ~11k-line API test suite runs with zero infrastructure. |
+| iOS | SwiftUI. 120Hz interaction budget; feed scroll runs on pre-rasterized card snapshots with pixel-parity swap rules. |
+| Backend | Node 22, dependency-light. Postgres, 31 hand-written migrations. Dual store (Postgres + in-memory) so the full API test suite runs with zero infrastructure. |
 | Platform | AWS App Runner, RDS Postgres, S3 media with presigned uploads, APNs push. |
 | Analytics | Typed event contracts written to Postgres. Drives release smoke checks and a score-inflation canary. |
 | Release | Scripted TestFlight pipeline: build-number audit, device screenshot runs, live-backend health gates. 120+ internal builds since March 2026; live on the App Store. |
 
-~1,350 commits since March. Built with a modern AI-assisted toolchain, the same way it'll be maintained; every change works from a written spec and gets reviewed and verified on device before it ships.
+Shipping continuously since March 2026 — 120+ releases in four months. Built with a modern AI-assisted toolchain, the same way it'll be maintained; every change works from a written spec and gets reviewed and verified on device before it ships.
 
 ## Notes
 
