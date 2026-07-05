@@ -27,7 +27,7 @@ Meerkat is a two-person passion project. A friend drives the product; I build it
 | Analytics | Typed event contracts written to Postgres. Drives release smoke checks and a score-inflation canary. |
 | Release | Scripted TestFlight pipeline: build-number audit, device screenshot runs, live-backend health gates. 120+ internal builds since March 2026. |
 
-~1,350 commits since March, most of them typed by AI coding agents working from specs. Everything gets reviewed and verified on device before it ships.
+~1,350 commits since March. Built with a modern AI-assisted toolchain, the same way it'll be maintained; every change works from a written spec and gets reviewed and verified on device before it ships.
 
 ## Notes
 
